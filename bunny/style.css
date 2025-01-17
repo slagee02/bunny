@@ -1,0 +1,171 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 26px;
+    
+    background-color: #e3ffde;
+}
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(159, 245, 181);
+
+
+}
+.navitem{
+    display: inline-block;
+    
+}
+.navlink{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.content{
+    padding: 0% 15% 5%;
+}
+
+.navlink:hover {
+    background-color: white;
+    color: rgb(159, 245, 181);
+    
+  }
+
+
+.navbar-side{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 200px;
+    background-color: rgb(159, 245, 181);
+}
+#care-text{
+    padding: 5% 8%;
+    
+}
+.verticalNav{
+    float: left;
+    list-style-type: none;
+    width: 220px;
+    padding: 0;
+    margin: 30px;
+    background-color: rgb(159, 245, 181);
+    border: 2px solid black;
+    text-align: center;
+
+
+}
+.verticalNav li{
+    color: white;
+    display: block;
+    width:100%;
+
+}
+.verticalNav li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+.verticalNav hr{
+    border:1px solid white;
+}
+.verticalNav li a:hover{
+    background-color: white;
+    color: rgb(159, 245, 181);
+
+}
+#care-pic{
+    float: right
+}
+td, th {
+    border: 1px solid gray;
+    background-color: white;
+    text-align: center;
+    }
+.images{
+    text-align: center;
+    margin: 15px;
+}
+
+.images img{
+    border: 3px solid black
+}
+
+#my-bunny{
+    text-align: center;
+    padding-top: 5%;
+}
+#my-bunny img{
+    
+    border: 3px solid black
+}
+
+.compilation{
+    
+    text-align: center;
+}
+
+.compilation iframe{
+    border: 3px solid black;
+}
+
+#care-pic{
+    float: right;
+    border:  3px solid black;
+    margin: 35px;
+}
+
+#resources{
+    text-align: center;
+}
+#resources ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+#resources li a{
+    color: black;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+#resources li a:hover{
+    color: white ;
+}
+
+.basic-care-content{
+    margin: 4% 10%;
+
+
+}
+.logo{
+    background-color: rgb(140, 220, 160);
+    font-size: 24px;
+    padding:0px 0px 20px 20px;
+    color: white;
+    
+}
+.logo h1{
+    padding-left:30px;
+    margin: 0;
+    display: inline;
+}
+
+.logo img{
+    margin: 15px 0px 0px 15px;
+}
+
+footer { 
+   
+    display: block;
+    text-align: center;
+    background-color: rgb(159, 245, 181); ;
+    
+}
+

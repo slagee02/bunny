@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Questionnaire</title>
+    <link rel="icon" href="photos/carrot-icon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	
+</head>
+
+<body>
+    <header class="logo">
+
+        <img src = photos/carrot-icon.svg alt="carrot icon" width ="60" height="60">
+       <h1> Healthy & Happy Hoppers</h1>
+    </header>
+    
+        <nav>
+            <ul class="navbar" >
+                <li class="navitem"><a class="navlink" href="project.html">Home</a></li>
+                <li class="navitem"><a class="navlink" href="why.html">Why A Bunny?</a></li>
+                <li class="navitem"><a class="navlink" href="care.html">Care</a></li>
+                <li class="navitem"><a class="navlink" href="resources.html">Resources & Pics</a></li>
+                <li class="navitem"><a class="navlink" href="questionnaire.html"><u>Questionnaire</u></a></li>
+              </ul>
+        </nav>
+        <form action = "complete.html">
+            <p>Have you ever had a rabbit before?</p>
+            <ol>
+            <li><input type="radio" name="past" value="no" checked>no </li>
+            <li><input type="radio" name="past" value="yes">yes</li>
+            </ol>
+            <p>Do you want one now?</p>
+            <ol>
+                <li><input type="radio" name="want" value="no" checked>no </li>
+                <li><input type="radio" name="want" value="yes">yes</li>
+                </ol>
+
+
+            <em>why or why not?</em><br>
+                <textarea name="reasom" rows="5" cols="200">I love rabbits</textarea></label></p>
+
+                <p>What pets have you owned?</p>
+                <ul>
+                <li><input type="checkbox" name="pet" value="dog" > dog</li>
+                <li><input type="checkbox" name="pet" value="bird" > bird</li>
+                <li><input type="checkbox" name="pet" value="guinea pig" > guinea pig</li>
+                <li><input type="checkbox" name="pet" value="hamsters/mice/rats" > hamsters/mice/rats</li>
+                <li><input type="checkbox" name="pet" value="cat" > cat</li>
+                <li><input type="checkbox" name="pet" value="rabbit" >  rabbit</li>
+                <li><input type="checkbox" name="pet" value="fish" >  fish</li>
+                <li><input type="checkbox" name="pet" value="reptiles" >  reptiles</li>
+                <li><input type="checkbox" name="pet" value="other" >  other</li>
+                </ul>
+                <label>Number of pets <input type="number" name="pet_num" min="0"
+                    max="20"></label>
+               
+                <p><input type="submit"> </p>    
+
+
+        </form>
+
+</body>
+<footer>
+    <p>&copy Healthy and Happy Hoppers &nbsp&nbsp&nbsp&nbsp <a href="mailto:slagee02@gmail.com">Contact us</a></p>
+    
+  </footer>
+</html>
